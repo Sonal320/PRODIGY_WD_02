@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#display {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #45a049;
+}
+
+.buttons button:nth-child(2) {
+  background-color: #f44336;
+}
+
+.buttons button:nth-child(2):hover {
+  background-color: #e53935;
+}
+
+.buttons button:nth-child(3) {
+  background-color: #2196f3;
+}
+
+.buttons button:nth-child(3):hover {
+  background-color: #1976d2;
+}
+
+.buttons button:nth-child(4) {
+  background-color: #ff9800;
+}
+
+.buttons button:nth-child(4):hover {
+  background-color: #fb8c00;
+}
+
+#laps {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#laps h3 {
+  margin-bottom: 10px;
+}
+
+#lapList {
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#lapList li {
+  background: #f0f0f0;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
